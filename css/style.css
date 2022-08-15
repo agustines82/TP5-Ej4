@@ -1,4 +1,30 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background: #0f3854;
+    background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
+    background-size: 100%;
+}
+.reloj {
+    font-family: "Share Tech Mono", monospace;
+    color: #ffffffff;
+    text-shadow: 0 0 20px rgba(10, 175, 230, 1), 0 0 20px rgba(10, 175, 230, 0);
+}
+.tiempo {
+    font-size: 80px;
+}
+.fecha {
+    font-size: 30px;
+}
+
+@media all and (max-width: 767px) {
+    .tiempo {
+        font-size: 50px;
+    }
+    .fecha {
+        font-size: 30px;
+    }
 }
